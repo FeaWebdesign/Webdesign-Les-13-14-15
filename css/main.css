@@ -1,0 +1,133 @@
+* {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+body {
+  width: 1000px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+header {
+  background: url('../image/Achtergrond_1.png');
+  width: 1000px;
+  height: 135px;
+}
+header h1 {
+  font-size: 300%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: yellow;
+  text-align: left;
+  text-shadow: 5px 5px 7px orange;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+ul{
+  background: #9ACD32;
+  height: 34px;
+}
+ul li{
+  background: #808000;
+  width: 120px;
+  padding: 5px;
+  border: solid 2px white;
+  display: inline-block;
+}
+ul li a{
+  color: yellow;
+  text-decoration: none;
+  margin: 15px;
+}
+ul li a:hover {
+  color: #0000FF;
+  background-color: orange;
+}
+h2 {
+  font-size: 35px;
+}
+section {
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: double 7px green;
+  height: 570px;
+}
+p {
+  border: 2px solid black;
+  border-radius: 20px 20px 0px 0px;
+  padding: 15px;
+  background-color: #AFEEEE;
+  border-bottom-width: thick;
+
+}
+article h2 {
+  border: 2px solid black;
+  border-radius: 0px 0px 20px 20px;
+  padding: 15px;
+  background-color: #AFEEEE;
+  color: green;
+  border-bottom-width: thick;
+}
+article img {
+  box-shadow: 10px 10px 10px #2F4F4F;
+  display: inline-block;
+}
+footer {
+  border: 2px solid blue;
+  background-color: #808000;
+  height: 110px;
+  color: white;
+  padding: 10px;
+}
+a:hover {
+  color: yellow;
+}
+a:active {
+  color: red;
+}
+.copyright {
+  text-align: center;
+}
+
+table, th, td {
+  border: 2px solid lightblue;
+  font-size: 20px;
+  padding: 5px;
+}
+h2{
+  font-size: 25px;
+}
+h3{
+  font-size: 25px;
+}
+
+input[type="text"], input[type="date"], input[type="email"],
+textarea, button{
+  padding: 5px;
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 4px; box-shadow: inset 2px 2px 5px lightgreen;
+}
+textarea{
+  padding: 5px 5px;
+  height: 100px;
+}
+button:hover{
+  color: green;
+  background-color: lightblue;
+  text-decoration: none;
+}
+button:active{
+  background-color: purple;
+  color: white;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px lightblue;
+  font-weight: bold;
+}
+img {
+  display: block;
+  margin-left: 50px;
+}
